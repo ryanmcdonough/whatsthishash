@@ -1,0 +1,63 @@
+.form-control {
+display: block;
+width: 100%;
+padding: 6px 12px;
+font-size: 20px;
+line-height: 1.428571429;
+color: #555;
+vertical-align: middle;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ebebeb;
+border-radius: 3px;
+-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+-moz-transition: border-color ease-in-out .15s,-moz-box-shadow ease-in-out .15s;
+-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+-moz-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+
+.form-control,
+.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.form-control:focus {
+  border-color: #4cc0c1;
+}
+.input-s-sm {
+  width: 120px;
+}
+.input-s {
+  width: 200px;
+}
+.input-s-lg {
+  width: 250px;
+}
+.input-group-addon {
+  border-color: #d9d9d9;
+  background-color: #f9f9f9;
+}
+
+body {
+  background:#ecf0f1;
+}
+
+.header-area {
+  background:#ecf0f1;
+}
+
+.content-area {
+  background:#fff;
+}
+
+.logo {
+	font-size:120px;
+}
+
+h1, h2, h3, h4, h5
+{
+  font-family: 'Lato', sans-serif;
+}
